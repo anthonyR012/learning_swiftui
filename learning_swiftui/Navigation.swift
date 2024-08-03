@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct Navigation: View {
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Hello, World!").navigationTitle("Home")
+                    .navigationBarTitleDisplayMode(.inline).toolbar(content: {
+                        ToolbarItem(placement: .navigationBarTrailing, content: {
+                            NavigationLink("+", destination: DividersView())
+                        })
+                    })
+                NavigationLink("Go to views", destination: Tabviews())
+                NavigationLink("Go to ImagesView") {
+                                   ImagesView()
+                               }
+                
+            }
+            
+        }
     }
 }
 
-#Preview {
-    Navigation()
-}

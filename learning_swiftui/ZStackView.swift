@@ -48,7 +48,3 @@ struct MyImagesView: View {
         }
     }
 }
-
-#Preview{
-  ZStackView()
-}
