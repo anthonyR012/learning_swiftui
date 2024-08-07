@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0910CFCD2C62F66800BFBC94 /* CustomCurvesShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0910CFCC2C62F66800BFBC94 /* CustomCurvesShapes.swift */; };
+		0910CFCF2C63072F00BFBC94 /* Pikachu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0910CFCE2C63072F00BFBC94 /* Pikachu.swift */; };
+		09279F1B2C61B93D00820A27 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09279F1A2C61B93D00820A27 /* CustomShapes.swift */; };
 		092DBF442C5EBB3700A712F4 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBF432C5EBB3700A712F4 /* CustomButtonStyle.swift */; };
 		092DBF462C5EC38B00A712F4 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBF452C5EC38A00A712F4 /* CustomTransition.swift */; };
 		092DBF482C5ECE2500A712F4 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DBF472C5ECE2500A712F4 /* MatchedGeometryEffect.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0910CFCC2C62F66800BFBC94 /* CustomCurvesShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesShapes.swift; sourceTree = "<group>"; };
+		0910CFCE2C63072F00BFBC94 /* Pikachu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pikachu.swift; sourceTree = "<group>"; };
+		09279F1A2C61B93D00820A27 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		092DBF432C5EBB3700A712F4 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		092DBF452C5EC38A00A712F4 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		092DBF472C5ECE2500A712F4 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 				092DBF432C5EBB3700A712F4 /* CustomButtonStyle.swift */,
 				092DBF452C5EC38A00A712F4 /* CustomTransition.swift */,
 				092DBF472C5ECE2500A712F4 /* MatchedGeometryEffect.swift */,
+				09279F1A2C61B93D00820A27 /* CustomShapes.swift */,
+				0910CFCC2C62F66800BFBC94 /* CustomCurvesShapes.swift */,
+				0910CFCE2C63072F00BFBC94 /* Pikachu.swift */,
 			);
 			path = learning_advance;
 			sourceTree = "<group>";
@@ -192,12 +201,15 @@
 				09D959E52C28C5E800B5AF22 /* ContentView.swift in Sources */,
 				09B434D22C39D8E200006FA9 /* PlayerView.swift in Sources */,
 				098033802C5EB0B600FC6884 /* CustomViewModifiers.swift in Sources */,
+				0910CFCF2C63072F00BFBC94 /* Pikachu.swift in Sources */,
 				092DBF482C5ECE2500A712F4 /* MatchedGeometryEffect.swift in Sources */,
 				09B434D02C39D34500006FA9 /* Navigation.swift in Sources */,
 				09D959F32C28D1B700B5AF22 /* ButtonsView.swift in Sources */,
 				092DBF462C5EC38B00A712F4 /* CustomTransition.swift in Sources */,
 				09BEAD612C34D3720091C15D /* TextField.swift in Sources */,
+				09279F1B2C61B93D00820A27 /* CustomShapes.swift in Sources */,
 				09569D722C38CA0500C63FDF /* ZStackView.swift in Sources */,
+				0910CFCD2C62F66800BFBC94 /* CustomCurvesShapes.swift in Sources */,
 				09BEAD5F2C34CA230091C15D /* images.swift in Sources */,
 				09D959E32C28C5E800B5AF22 /* learning_swiftuiApp.swift in Sources */,
 				09B434CE2C39D12600006FA9 /* Tabviews.swift in Sources */,
